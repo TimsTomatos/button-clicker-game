@@ -16,3 +16,10 @@ document.getElementById("button").addEventListener("click", function() { //when 
     sum++; //Takes var sum and adds 1 
     document.getElementById("display").innerHTML = sum; //Displays code
 });
+
+var gamePlay = null;
+
+function startUp() {
+    document.getElementById
+}
+
