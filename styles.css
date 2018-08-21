@@ -1,1 +1,43 @@
+#title {
+    margin: auto 0;
+    right: 50%;
+    position: absolute;
+    font: cursive;
+    
+}
+
+#currentDisplay{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-size : 100% 100%;
+    left: 2.5%;
+    height: 100%;
+    border-left: solid white;
+    min-width: 20%;
+    overflow: auto;
+}
+
+#menuDisplay {
+    margin: auto 0;
+    right: 50%;
+    bottom: 80%;
+    position: absolute;
+}
+
+#gameDisplay  {
+    display: none;
+    border: solid 1px;
+    text-align: center;
+}
+
+.redcircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+    background-color: red; 
+    position: absolute;
+    margin-left: 20px; 
+}
+
 

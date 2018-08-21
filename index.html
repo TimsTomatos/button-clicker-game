@@ -6,45 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    
-    <h1>Button Assignment Thingy</h1>
 </head>
 <body>
-   <div id="whole">
+   <div id="wholes">
+        <h1 id="title">Button Assignment Thingy</h1>
+        <div id="currentDisplay"></div>
 
-
-        <div id="menu">
-            <h1> Welcome To My Genric Button Clicker game</h1>
-            <button id="startButton" onclick="play">
-                <p>Start</p>
-            </button>
-
-
-
-        </div>
-
-        <div id="game">
-
-
-
-            <h1>Button Clicker</h1>
-
-            <button id="button">
-                <p>Click Me</p> 
+        <div id="menuDisplay">
+            <div id="playButton" onclick= "startUp('gameDisplay')";>
+                <p class="tags">Play!!</p>
             </div>
-
-
-
-        </div>    
-        <br/>
-        <div id="display">
-            
         </div>
-
-
-
-
-
+    
+        <div id = "gameDisplay">
+            <h1>Button Clicker</h1>
+            <button id="gamePlay">
+                <p>Click Me</p> 
+            </button>
+            <div class="redcircle" onclick= "hideFeat('gameDisplay')";>
+                <button>Exit</button>
+            </div>
+        </div>
+  
+                  
+        <div id="score"></div>          
    </div>
    <script src="app.js"></script> 
 </body>
