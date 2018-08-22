@@ -54,6 +54,7 @@ body {
 
 #score {
     font-size: 100px;
+    color: white;
 }
 
 
@@ -72,6 +73,7 @@ body {
 #highScore {
     font-size: 100px;
     padding-left: 15%;
+    color: white;
 }
 
 
