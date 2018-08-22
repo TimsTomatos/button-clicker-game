@@ -8,6 +8,7 @@ body {
     position: absolute;
     font-size: 50px;
     border-bottom: solid 10px;
+    color: white;
 }
  
 #currentDisplay{
@@ -45,6 +46,7 @@ body {
 #playButton {
     top: 50%;
     position: absolute;
+        color: white;
 }
 
 #highScore {
@@ -62,6 +64,7 @@ body {
     top: 50%;
     left: 43%;
    position: fixed;
+    color: white;    
 }
 
 #playButton {
