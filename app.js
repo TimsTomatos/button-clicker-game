@@ -16,6 +16,9 @@ document.getElementById("gamePlay").addEventListener("click", function() { //whe
     Vsum++; //Takes var sum and adds 1 
 	document.getElementById("score").innerHTML = Vsum; //Displays code
 	document.getElementById("highScore").innerHTML = Vsum;
+	if(Vsum == 21) {
+		document.getElementById("music").innerHTML = "<audio autoplay> <source src = 'epicsaxguy.mp3' type = 'audio/mpeg'>  </audio>";
+	}
 });
 
 
@@ -38,6 +41,3 @@ function hideFeat() {
 
 }
 
-if(Vsum == 21) {
-	document.getElementById("music").innerHTML = "<audio autoplay> <source src = 'music/epicsaxguy.mp3' type = 'audio/mpeg'>  </audio>";
-}
