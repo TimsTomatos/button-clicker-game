@@ -13,24 +13,37 @@
         <div id="currentDisplay"></div>
 
         <div id="menuDisplay">
-            <div id="playButton" onclick= "startUp('gameDisplay')";>
+
+            <div id="scoreBoard">
+                
+                <div id="scoreContainer">
+                    <h1 id="hSName">High Score</h1>
+
+                    <div id="highScore"></div>
+                
+                </div>
+            </div>
+           
+            <div id="playButton" onclick= "startUp()">
                 <p class="menuNames">Play!!</p>
             </div>
         </div>
-    
+        
         <div id = "gameDisplay">
             <h1>Button Clicker</h1>
             <button id="gamePlay">
                 <p>Click Me</p> 
             </button>
-            <div class="exitButton" onclick= "hideFeat('gameDisplay')";>
+            <div class="exitButton" onclick= "hideFeat()";>
                 <button>Exit</button>
             </div>
+            <div id="score"></div>          
+
         </div>
   
                   
-        <div id="score"></div>          
    </div>
+   <div id="music"></div>
    <script src="app.js"></script> 
 </body>
 </html>
